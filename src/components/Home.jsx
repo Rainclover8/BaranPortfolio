@@ -5,30 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 
-import Kelebek from "../assets/Kelebek.mp3";
-import Siir from "../assets/Siir.mp3";
-import Hanımefendi from "../assets/Hanımefendi.mp3";
-
 function Home() {
-  const musics = [
-    {
-      name: "Kelebek",
-      audio: Kelebek,
-    },
-    {
-      name: "Siir",
-      audio: Siir,
-    },
-    {
-      name: "Hanımefendi",
-      audio: Hanımefendi,
-    },
-  ];
-
-  // const clickHnadler = (ses) => {
-  //   const müzik = new Audio(ses);
-  //   müzik.play();
-  // };
   return (
     <div className="bg-custom3 min-h-screen">
       {/* {musics.map((muzik, id) => {
@@ -44,7 +21,6 @@ function Home() {
           </div>
         );
       })} */}
-
       <div className="flex justify-center items-center">
         <div className="border border-custom1 md:w-96 md:h-96 h-52 w-52 rounded-full  bg-custom1 shadow-lg shadow-custom2 md:mt-4 mt-8 relative ">
           <img
@@ -65,7 +41,7 @@ function Home() {
           <a
             href="https://www.instagram.com/baranncicek19/"
             target="_blank"
-            className="border rounded-full p-2 hover:bg-white duration-200"
+            className="border rounded-full p-2 hover:bg-white duration-500"
           >
             <RiInstagramFill
               className="text-custom4 hover:text-custom1"
@@ -75,17 +51,17 @@ function Home() {
           <a
             href="https://www.linkedin.com/in/cicekbaran/"
             target="_blank"
-            className="border rounded-full p-2 hover:bg-white duration-200"
+            className="border rounded-full p-2 hover:bg-white duration-500"
           >
             <FaLinkedin className="text-custom4 hover:text-custom1" size={36} />
           </a>
           <a
             href="https://github.com/Rainclover8"
             target="_blank"
-            className="border rounded-full p-2 hover:bg-white duration-200"
+            className="border rounded-full p-2 hover:bg-white duration-500"
           >
             <FaSquareGithub
-              className="text-custom4 hover:text-custom1 duration-200"
+              className="text-custom4 hover:text-custom1 duration-500"
               size={36}
             />
           </a>

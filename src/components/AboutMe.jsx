@@ -218,7 +218,7 @@ function AboutMe() {
               <p
                 data-aos="fade-left"
                 data-aos-delay="400"
-                className="text-center  text-dark2 font-extrabold shadow-lg shadow-dark2 p-3 font-Coder text-4xl"
+                className="text-center  text-dark2 font-extrabold shadow-lg shadow-dark2 p-3 font-SpaceMono text-4xl"
               >
                 Merhaba 👋 Ben Baran Çiçek, 3 yıllık yazılım geliştirme
                 deneyimine sahip bir freelancerım. Özellikle JavaScript, React,
@@ -245,7 +245,7 @@ function AboutMe() {
         <main className=" bg-dark overflow-hidden">
           {/* <div className="flex text-center flex-col items-center justify-center">
             <div className="">
-              <h1 className="text-6xl text-dark2 font-Coder tracking-widest">
+              <h1 className="text-6xl text-dark2 font-SpaceMono tracking-widest">
                 What I Do?
               </h1>
             </div>

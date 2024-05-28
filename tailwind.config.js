@@ -21,6 +21,7 @@ export default {
       "Jersey": ["'Jersey 15'","'cursive'"],
       "Jacquard": ["'Jacquard 24'","'cursive'"],
       "Coder": ["'Jersey 10'","'cursive'"],
+      "SpaceMono":["'Space Mono'", "'cursive'"]
     },
   },
   plugins: [],
